@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="jsbaasi" pubkey="308204d3308202bba00302010202085791b996eddcc655300d06092a864886f70d01010c05003017311530130603550403130c6a736261617369207265706f3020170d3236313033313032313933365a180f32303534303331383032313933365a3017311530130603550403130c6a736261617369207265706f30820222300d06092a864886f70d01010105000382020f003082020a0282020100dedde7fd1b822d3f0982f9934de6d15065712be6bf8843075ad8228631f1f860de6728906d4d0b647a61ecd9114d88581320e039de6c8844de7d84acce21f9d4e8586464086155c8292f8422fa5fcb84d3e1f4f890744295facb5cedbafaabb49033d7fa22190584943f4f7983572e74578d7658a711681d58025cbe0c8b6dd20ebf68349d619ec4303dc1819e99814cd2470b13c598007678934dc7c715444922a40c5c878e09ca450a8bec2fe2145810f81dd29b57cf8e2230294be8a410ea08f0e3cbdf6959af51c649cf95e14c8453849d93468a84d8c90696e1ca435120d7b1c9c6167df587041a052b372714858ebaa9a02b6686c518af8299a89f34a4f79cc6cb9e436606f543ddb417ca603539ce132efcf0790df0922160df946d39070accaee1fa1f9d4826b38b3cc93485cf1e114b6c95cd5738ec406f26635c95d4082ad3c912ec6c13bfa97c25391587a8bfdfb15d0e6d90316f798a876a902e64ef7530ca4ed98c63387c1ca69cb13acbcb02db15b9ff06dfcfc4f72cd8479a519a065cff2a74ab200333ebf6a6518bd33834a47b2d40c620286be3e7c6fd96b4ea086bf120f678fd6f744e06fd73b1e97c5cc6b9a4c22ff57533291ef1e48c3ed56301029134f8e8f76fabec4a4558dfcf95fbf7c62b64f16a1ca99447d518a3a6d42d6d887081d7ef70629718901afe6612e3616803c2f16c2176388e485d0203010001a321301f301d0603551d0e04160414457c5b7e52734d7a1c926796fcda9fc936ea74c8300d06092a864886f70d01010c050003820201002d55a56df6a60d6d135b5e77529ad962db53411bb57c1fe844e8156e7ca7f907979c6971cd3d635bc28babdbcf6a4ed894b803fe4f8fc43c456cc91e9af138db01f8725e7ee46bbc38d94b3eb36f4ba31400415bfcb06caf7555f5f036ab2d72b2892d8812b31127d5c92bc9dc3594c4557f05bee339defd29f4906b6c001de3b6451785c7ac40a301be74fdff97d8d981ba4de554ff6571b478870336c041c5498806c245c66e995a8092fa4bf9655345c5ac890180cdd199a4d5f95aac47db4f3be889fa1aa76a79c98bcfd6c4db5333ed47b3dc52c50c3c2738b5b88d16704c14d3b1d596e0dba6667eeefedd2b14a133554b6bef47425f04897e6809fc37f5795ee0ea11ec4d2ac6143d1cd7a91ad35dba70b006e4c4262fc39ebd7d68486e022d00e703da6c0766244d36e47fb15b255715fa1942808d440df937269de557ef9cdba60e0caf5615185d81cca1d30c593cd57730dcbd8730bf23ec9f5c03f225dfb2ed898f5ab9e8ebcf8cb06f9878b26e89b34636c7ee78092d480e4b3cfdcc9f98d31aca81cb92297cb03adb6ffc935db281fabea9a2ad2a5f3e3c151a9e44f04774f3e1ddf64e6fc0fc73d5ac80c2a5ce4a778997a580bd5216470001752040f08d6099865ae67c2155a68e0ecedd52b45431f8d97b30e2885a869aadee3b0cdaf89b4ffa65cb1bf0f07ba14d1266236c095ef38d02e715f9183f817c" timestamp="1793838428" url="https://stormblessed.fr/fdroid/repo" version="20002">
+		<description>Apps by jsbaasi, built and signed by GitHub Actions from their source repositories.</description>
+	</repo>
+	<application id="fr.stormblessed.reader">
+		<id>fr.stormblessed.reader</id>
+		<added>2026-11-04</added>
+		<lastupdated>2026-11-05</lastupdated>
+		<name>Stormreader</name>
+		<summary>EPUB reader that syncs progress and notes over WebDAV</summary>
+		<desc>A quiet, fast EPUB reader.
+
+* Tap the edges to turn pages, the middle for the menu.
+* Drag the left edge for brightness, down past the screen's minimum.
+* Notes at any position.
+* Progress and notes sync through a WebDAV folder you own, one plain JSON file per book. Each device keeps its own position, and the app offers to jump to whichever device is furthest ahead.</desc>
+		<license>Unknown</license>
+		<categories>Reading</categories>
+		<category>Reading</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>jsbaasi</author>
+		<marketversion></marketversion>
+		<marketvercode>23</marketvercode>
+		<package>
+			<version>1.0.23</version>
+			<versioncode>23</versioncode>
+			<apkname>fr.stormblessed.reader_23.apk</apkname>
+			<hash type="sha256">4f3a1f660aad90002ade4627fcbaf0ef8b6e9b3df95c7cad05fdbcb608627656</hash>
+			<size>55026679</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-05</added>
+			<sig>853786b16354d04f7ab9371e24a9d09c</sig>
+			<permissions>INTERNET,fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.0.21</version>
+			<versioncode>21</versioncode>
+			<apkname>fr.stormblessed.reader_21.apk</apkname>
+			<hash type="sha256">7fa2b0a810f74758d298f3678116c8814f2dc6dd0895746dbc8f0b701ea4ae59</hash>
+			<size>55026675</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-05</added>
+			<sig>853786b16354d04f7ab9371e24a9d09c</sig>
+			<permissions>INTERNET,fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.0.18</version>
+			<versioncode>18</versioncode>
+			<apkname>fr.stormblessed.reader_18.apk</apkname>
+			<hash type="sha256">bd75114ac9b03f6f4a2ee6f8127b2961549d0da5026e67c333b5e4d2d5a2d76f</hash>
+			<size>55026679</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-04</added>
+			<sig>853786b16354d04f7ab9371e24a9d09c</sig>
+			<permissions>INTERNET,fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+		</package>
+	</application>
+</fdroid>

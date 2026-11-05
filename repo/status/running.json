@@ -1,0 +1,35 @@
+{
+  "/etc/issue.net": "Ubuntu 24.04.5 LTS",
+  "antiFeatures": {},
+  "apksigner": "/usr/local/lib/android/sdk/build-tools/37.0.0/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/opt/hostedtoolcache/Python/3.12.15/x64/bin/fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1793838431460,
+  "failedBuilds": {},
+  "jarsigner": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64/bin/jarsigner",
+  "keytool": "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64/bin/keytool",
+  "needsUpdate": [
+    "fr.stormblessed.reader"
+  ],
+  "noPackages": [
+    "fr.stormblessed.reader"
+  ],
+  "noUpdateCheck": [
+    "fr.stormblessed.reader"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1793838426862,
+    "index.make repo": 1793838428610,
+    "prepare_apps repo": 1793838428610,
+    "process_apks": 1793838426862,
+    "read_added_date_from_all_apks": 1793838428609,
+    "remove_apks": 1793838428609,
+    "scan_repo_files": 1793838428608
+  },
+  "startTimestamp": 1793838426000,
+  "subcommand": "update"
+}
