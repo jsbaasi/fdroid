@@ -1,0 +1,121 @@
+{
+  "repo": {
+    "timestamp": 1794530637000,
+    "version": 20002,
+    "name": "jsbaasi",
+    "icon": "icon.png",
+    "address": "https://stormblessed.fr/fdroid/repo",
+    "description": "Apps by jsbaasi, built and signed by GitHub Actions from their source repositories."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "jsbaasi",
+      "categories": [
+        "Reading"
+      ],
+      "suggestedVersionCode": "32",
+      "description": "A quiet, fast EPUB reader.\n\n* Tap the edges to turn pages, the middle for the menu.\n* Drag the left edge for brightness, down past the screen's minimum.\n* Notes at any position.\n* Progress and notes sync through a WebDAV folder you own, one plain JSON file per book. Each device keeps its own position, and the app offers to jump to whichever device is furthest ahead.",
+      "license": "Unknown",
+      "name": "Stormreader",
+      "summary": "EPUB reader that syncs progress and notes over WebDAV",
+      "added": 1794094892000,
+      "packageName": "fr.stormblessed.reader",
+      "lastUpdated": 1794530637000
+    }
+  ],
+  "packages": {
+    "fr.stormblessed.reader": [
+      {
+        "added": 1794530637000,
+        "apkName": "fr.stormblessed.reader_32.apk",
+        "hash": "0cd473528fe7830735ea7951a5800be6a955493ca821bd3a0dc179eb49b3214b",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "fr.stormblessed.reader",
+        "sig": "853786b16354d04f7ab9371e24a9d09c",
+        "signer": "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be",
+        "size": 55540088,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 32,
+        "versionName": "1.0.32"
+      },
+      {
+        "added": 1794095955000,
+        "apkName": "fr.stormblessed.reader_25.apk",
+        "hash": "ca922b577163044efecb968b081a7d26cc7c61106fbee9c4e0fbeab3c5660ec0",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "fr.stormblessed.reader",
+        "sig": "853786b16354d04f7ab9371e24a9d09c",
+        "signer": "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be",
+        "size": 55026679,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 25,
+        "versionName": "1.0.25"
+      },
+      {
+        "added": 1794094892000,
+        "apkName": "fr.stormblessed.reader_24.apk",
+        "hash": "0503e3df189a7fc85329b9d2ee7c521a92bc2e2f532acb30e93fa8fd6cbd7e1a",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "fr.stormblessed.reader",
+        "sig": "853786b16354d04f7ab9371e24a9d09c",
+        "signer": "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be",
+        "size": 55026675,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 24,
+        "versionName": "1.0.24"
+      }
+    ]
+  }
+}

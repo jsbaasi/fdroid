@@ -1,0 +1,152 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "jsbaasi"
+    },
+    "description": {
+      "en-US": "Apps by jsbaasi, built and signed by GitHub Actions from their source repositories."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "26de4decd39e8af4cb910aa5e096c1c39037432c89db4b92ac47d224cc0fcaf9",
+        "size": 708
+      }
+    },
+    "address": "https://stormblessed.fr/fdroid/repo",
+    "timestamp": 1794530637000,
+    "categories": {
+      "Reading": {
+        "name": {
+          "en-US": "Reading"
+        }
+      }
+    }
+  },
+  "packages": {
+    "fr.stormblessed.reader": {
+      "metadata": {
+        "added": 1794094892000,
+        "categories": [
+          "Reading"
+        ],
+        "lastUpdated": 1794530637000,
+        "authorName": "jsbaasi",
+        "name": {
+          "en-US": "Stormreader"
+        },
+        "summary": {
+          "en-US": "EPUB reader that syncs progress and notes over WebDAV"
+        },
+        "description": {
+          "en-US": "A quiet, fast EPUB reader.\n\n* Tap the edges to turn pages, the middle for the menu.\n* Drag the left edge for brightness, down past the screen's minimum.\n* Notes at any position.\n* Progress and notes sync through a WebDAV folder you own, one plain JSON file per book. Each device keeps its own position, and the app offers to jump to whichever device is furthest ahead."
+        },
+        "preferredSigner": "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be"
+      },
+      "versions": {
+        "0cd473528fe7830735ea7951a5800be6a955493ca821bd3a0dc179eb49b3214b": {
+          "added": 1794530637000,
+          "file": {
+            "name": "/fr.stormblessed.reader_32.apk",
+            "sha256": "0cd473528fe7830735ea7951a5800be6a955493ca821bd3a0dc179eb49b3214b",
+            "size": 55540088
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.0.32",
+            "versionCode": 32,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "ca922b577163044efecb968b081a7d26cc7c61106fbee9c4e0fbeab3c5660ec0": {
+          "added": 1794095955000,
+          "file": {
+            "name": "/fr.stormblessed.reader_25.apk",
+            "sha256": "ca922b577163044efecb968b081a7d26cc7c61106fbee9c4e0fbeab3c5660ec0",
+            "size": 55026679
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.0.25",
+            "versionCode": 25,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "0503e3df189a7fc85329b9d2ee7c521a92bc2e2f532acb30e93fa8fd6cbd7e1a": {
+          "added": 1794094892000,
+          "file": {
+            "name": "/fr.stormblessed.reader_24.apk",
+            "sha256": "0503e3df189a7fc85329b9d2ee7c521a92bc2e2f532acb30e93fa8fd6cbd7e1a",
+            "size": 55026675
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.0.24",
+            "versionCode": 24,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "86800c32902dc096e48bf9ee2afc71ee67b3620a9ab31eaacd326d35845839be"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "fr.stormblessed.reader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

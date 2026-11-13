@@ -1,0 +1,15 @@
+Categories:
+  - Reading
+License: Unknown
+AuthorName: jsbaasi
+Name: Stormreader
+Summary: EPUB reader that syncs progress and notes over WebDAV
+Description: |-
+  A quiet, fast EPUB reader.
+
+  * Tap the edges to turn pages, the middle for the menu.
+  * Drag the left edge for brightness, down past the screen's minimum.
+  * Notes at any position.
+  * Progress and notes sync through a WebDAV folder you own, one plain JSON file per book. Each device keeps its own position, and the app offers to jump to whichever device is furthest ahead.
+AutoUpdateMode: None
+UpdateCheckMode: None
